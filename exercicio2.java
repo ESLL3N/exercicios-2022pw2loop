@@ -23,7 +23,7 @@ public class exercicio2{
   }
   public static int maior(int[] b){
     int max = b[0];
-    for(int c = 1; c > b.length; c++){
+    for(int c = 1; c < b.length; c++){
       if(b[c] > max){
         max = b[c];
       }
